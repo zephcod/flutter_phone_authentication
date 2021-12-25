@@ -46,8 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
           Container(
             margin: EdgeInsets.all(10),
             width: double.infinity,
-            child: FlatButton(
-              color: Colors.blue,
+            child: ElevatedButton(
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => OTPScreen(_controller.text)));
